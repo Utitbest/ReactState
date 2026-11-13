@@ -7,8 +7,9 @@ function App() {
   return(
     <div id='ParentContainer'>
       <Header />
-      <Counter />
-
+      <Counter label='Great'/>
+      <Counter label='Audio'/>
+      <Counter label='Great'/>
     </div>
   )
 }
