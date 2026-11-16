@@ -8,8 +8,8 @@ function App() {
     <div id='ParentContainer'>
       <Header />
       <Counter label='Great'/>
-      <Counter label='Audio'/>
-      <Counter label='Great'/>
+      {/* <Counter label='Audio'/> */}
+      {/* <Counter label='Great'/> */}
     </div>
   )
 }
