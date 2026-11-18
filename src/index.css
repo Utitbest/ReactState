@@ -10,3 +10,10 @@
   flex-direction: column;
   background-color: gray;
 }
+a{
+  color: gray;
+  font-weight: 600;
+}
+.active{
+  color: red !important;
+}

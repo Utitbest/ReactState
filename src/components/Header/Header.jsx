@@ -1,15 +1,7 @@
 import React from "react";
 import HeroImage from '../../assets/hero.png'
 import './Header.css'
-import { Helper } from "../HelperCom";
-
-const NavItems = ['Home', 'Our Services', 'About', 'Contact Us'];
-
-
-function calculator(a, b){
-    const c = a + b
-    return c
-}
+import { NavLink } from "react-router-dom";
 
 
 
@@ -23,9 +15,11 @@ const Header = ()=>{
             </div>
             <nav>
                 <ul style={{display: 'flex', alignItems:'center',}}>
-                    {NavItems.map((v, index)=> (
-                        <Helper key={index} title={v}/>
-                    ))}
+                    <NavLink to='/'>Home</NavLink>
+                    <NavLink to='/Skills'>Skills</NavLink>
+                    <NavLink to='/Navbar'>Navbar</NavLink>
+                    <NavLink to='/About'>About</NavLink>
+                    <NavLink to='/Contact'>Contact</NavLink>
                 </ul>
             </nav>
         </header>

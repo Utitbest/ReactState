@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Helper({title   }){
+export function Helper({title}){
 
     return (
        <>

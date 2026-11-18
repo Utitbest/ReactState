@@ -1,15 +1,12 @@
 import React from 'react'
-const User = [
-    {Name: 'Ephraim', age: 18, stateOfOrigin: 'Akwa Ibom'},
-    {Name: 'Akpan', age: 18, stateOfOrigin: 'Imo State'},
-    {Name: 'Ephraim', age: 18, stateOfOrigin: 'Akwa Ibom'},
-    {Name: 'Ephraim', age: 18, stateOfOrigin: 'Akwa Ibom'}
-] 
-
+import Header from '../Header/Header'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <div>
+      <Header />
+      <h1>Navbar</h1>
+    </div>
   )
 }
 
