@@ -4,7 +4,6 @@ import Header from '../Header/Header'
 const About = () => {
   return (
     <div>
-      <Header />
       <p>Hello this</p>
     </div>
   )
