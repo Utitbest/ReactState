@@ -1,7 +1,7 @@
 
 
 export async function getJSON(url) {
-  const response = await fetch(url);
+  const response = await axios.post(url);
   if (!response.ok) {
     throw new Error(`Request failed with status ${response.status}`);
   }
